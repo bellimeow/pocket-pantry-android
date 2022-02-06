@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recipe_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:tag="shopping_list_item"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/dp"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/ic_recipe" />
+
+    <TextView
+        android:id="@+id/recipe_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="13dp"
+        android:gravity="fill_vertical"
+        android:text="Recipe 1"
+        android:textColor="#78038A"
+        android:textSize="18.5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recipe_short_description1"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="serif"
+        android:gravity="fill_vertical"
+        android:text="XXXXXXXXXXXXXXXXXX"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

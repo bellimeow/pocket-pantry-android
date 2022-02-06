@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Defines the base Material card style. -->
+    <style name="Widget.MaterialComponents.CardView" parent="CardView">
+        <item name="enforceMaterialTheme">true</item>
+
+        <item name="android:stateListAnimator" tools:ignore="NewApi">
+            @animator/mtrl_card_state_list_anim
+        </item>
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@null</item>
+        <item name="cardElevation">@dimen/mtrl_card_elevation</item>
+        <item name="cardForegroundColor">@color/mtrl_card_view_foreground</item>
+        <item name="checkedIcon">@drawable/ic_mtrl_checked_circle</item>
+        <item name="checkedIconTint">?attr/colorPrimary</item>
+        <item name="checkedIconSize">@dimen/mtrl_card_checked_icon_size</item>
+        <item name="checkedIconMargin">@dimen/mtrl_card_checked_icon_margin</item>
+        <item name="rippleColor">@color/mtrl_card_view_ripple</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceMediumComponent</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#46bdbf</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <attr name="materialCardViewStyle" format="reference"/>
+
+    <!-- Style to use for outlined MaterialCardView. -->
+    <attr name="materialCardViewOutlinedStyle" format="reference"/>
+
+    <!-- Style to use for filled MaterialCardView. -->
+    <attr name="materialCardViewFilledStyle" format="reference"/>
+
+    <!-- Style to use for elevated MaterialCardView. -->
+    <attr name="materialCardViewElevatedStyle" format="reference"/>
+
+    <declare-styleable name="MaterialCardView">
+        <!-- Whether the card can be checked. -->
+        <attr name="android:checkable"/>
+        <!-- Foreground color for CardView. -->
+        <attr name="cardForegroundColor" format="color"/>
+        <!-- Check icon drawable. -->
+        <attr name="checkedIcon"/>
+        <!-- Tint color for the checked icon. -->
+        <attr name="checkedIconTint"/>
+        <!-- Check icon size for Checkable Cards-->
+        <attr name="checkedIconSize" format="dimension"/>
+        <!-- Check icon margin for Checkable Cards-->
+        <attr name="checkedIconMargin" format="dimension"/>
+        <!-- Specifies how the checked icon should be positioned. -->
+        <attr name="checkedIconGravity">
+            <!-- Gravity.TOP | Gravity.END -->
+            <enum name="TOP_END" value ="8388661"/>
+            <!-- Gravity.TOP | Gravity.START -->
+            <enum name="TOP_START" value ="8388659"/>
+            <!-- Gravity.BOTTOM | Gravity.END -->
+            <enum name="BOTTOM_END" value ="8388693"/>
+            <!-- Gravity.BOTTOM | Gravity.START -->
+            <enum name="BOTTOM_START" value ="8388691"/>
+        </attr>
+        <!-- Ripple color for the Card. -->
+        <attr name="rippleColor"/>
+        <!-- State when a Card is being dragged. -->
+        <attr name="state_dragged" format="boolean" />
+        <!-- Specifies the color used to draw the path outline of the card. Attribute type definition is
+             in resources package. -->
+        <attr name="strokeColor"/>
+        <!-- Width of the stroke path of the card. Default is 0. Attribute type definition is in
+             resources package. -->
+        <attr name="strokeWidth"/>
+
+        <!-- Shape appearance style reference for MaterialCardView. Attribute declaration is in the
+             shape package. -->
+        <attr name="shapeAppearance"/>
+        <!-- Shape appearance overlay style reference for MaterialCardView. To be used to augment
+             attributes declared in the shapeAppearance. Attribute declaration is in the shape package.
+             -->
+        <attr name="shapeAppearanceOverlay"/>
+    </declare-styleable>
+
+</resources>

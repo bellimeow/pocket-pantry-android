@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173937372240",
+    "project_id": "tdp028-pocketpantry",
+    "storage_bucket": "tdp028-pocketpantry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173937372240:android:a17a7b6f5f4290c8a0b555",
+        "android_client_info": {
+          "package_name": "se.liu.tdp028_pocketpantry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173937372240-0c80fvr48im8b2occ45b04n16gc0jsr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI_0PTXIIeDy04lNgp6_oI8BsYg5FyRUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173937372240-0c80fvr48im8b2occ45b04n16gc0jsr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

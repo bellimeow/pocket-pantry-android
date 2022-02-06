@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Pocket Pantry</string>
+    <string name="test_Button">tdp028-pocketpantry</string>
+    <string name="hello_home_fragment">Hello home fragment</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_button_text">Add item</string>
+    <string name="item_editText_hint">Add item</string>
+    <string name="shopping_list_title">Shopping List</string>
+    <string name="ticked_items_title">Ticked items</string>
+    <string name="sign_in_button">SIGN IN</string>
+    <string name="recipe_list_title">Your recipes</string>
+    <string name="recipe_title">Recipe</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="add_all_ingredients">Add all ingredients</string>
+    <string name="generic_recipe_description">Random text that describes the recipe. Random text that describes the recipe
+Random text that describes the recipe
+Random text that describes the recipe</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="add_recipe_button_text">Add Recipe</string>
+    <string name="edit_recipe_title">Enter recipe name</string>
+    <string name="set_your_recipe_description_here">Set your recipe description here</string>
+    <string name="set_your_short_recipe_description_here">Set your short recipe description here</string>
+    <string name="amount_hint">Amount</string>
+    <string name="add_new_recipe">Add new recipe</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="you_have_x_ingredients">You have %1$d items in your shopping list</string>
+    <string name="secondary_text" />
+    <string-array name="measurement_unit_array">
+        <item>spice</item>
+        <item>ml</item>
+        <item>cl</item>
+        <item>dl</item>
+        <item>l</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>pcs</item>
+        <item>tsp</item>
+        <item>Tbsp</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,27 @@
+
+Pocket Pantry - Meal planner
+
+_____________
+
+ Description
+_____________
+
+The purpose of this application is to facilitate your day to day grocery shopping, maybe even make it fun!
+
+This application is able to store recipes and add the ingredients of those recipes in a shopping list. Choose the amount of portions and the different meals you want to shop for, and Pocket Pantry will summarize the amount of each ingredient to your shopping list. Minimizing your food waste and helping you our financially. If you are on a specific diet this will also help you keep track on what you eat. You can also store expire dates on some products to recieve notifications to use it in your cooking before it expires.
+
+Imagine a scenario where a family wants to make their favorite apple pie and instead of writing it down and searching for the recipe they can easily look it up in their application in their favorite tab. They then select the recipe to add the required items to their shopping list. They uncheck the sugar since they already have that at home and they are then ready for a trip to the grocery store!
+________________
+
+ Specifications
+________________
+
+- Save recipes
+- Automatically generated shopping lists
+- User account
+- Your current pantry
+- Notifications for exporation dates on your groceries
+- Scan barcodes
+- Database for groceries
+- Price comparision
+- GPS integrated to find the closest store

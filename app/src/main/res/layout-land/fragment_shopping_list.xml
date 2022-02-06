@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:textAlignment="center">
+
+    <TextView
+        android:id="@+id/shopping_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center|center_horizontal"
+        android:autoSizeTextType="uniform"
+        android:text="@string/shopping_list_title"
+        android:textAlignment="center" />
+
+    <ListView
+        android:id="@+id/shopping_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/ticked_items_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ticked_items_title" />
+
+    <ListView
+        android:id="@+id/deleted_items_listview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/item_editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/item_editText_hint" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_button_text" />
+    </LinearLayout>
+
+</LinearLayout>
