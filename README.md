@@ -11,6 +11,7 @@ This application is created by Isabella Olivos for a school project for the cour
 <p>- Save recipes</p>
 <p>- Automatically generated shopping lists</p>
 <p>- User account</p>
+<p>- Firestore database integrated</p>
 
 <h2> Upcoming Features</h2>
 <p>- Notifications for exporation dates on your groceries</p>
