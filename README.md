@@ -11,8 +11,10 @@ This application is created by Isabella Olivos for a school project for the cour
 <p>- Save recipes</p>
 <p>- Automatically generated shopping lists</p>
 <p>- User account</p>
-<p>- Your current pantry</p>
+
+<h2> Upcoming Features</h2>
 <p>- Notifications for exporation dates on your groceries</p>
+<p>- Your current pantry</p>
 <p>- Scan barcodes</p>
 <p>- Database for groceries</p>
 <p>- Price comparision</p>
