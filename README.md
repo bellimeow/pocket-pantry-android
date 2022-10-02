@@ -1,6 +1,10 @@
 <h1> TDP028 Pocket Pantry</h1>
 
-![alt text](https://github.com/bellimeow/pocket-pantry-android/blob/main/app-pic-home1.png?raw=true)
+ Screenshots          |   __________________________
+:-------------------------:|:-------------------------:
+<img src="app-pic-home1.png"  width="350" height="719"> | <img src="app-shoppinglist.png"  width="350" height="719"> 
+<img src="app-log-in.png"  width="350" height="719"> | <img src="app-recipies-2.png"  width="350" height="719">
+<img src="app-recipe-description.png"  width="350" height="719"> | <img src="app-edit-recipe.png"  width="350" height="719">
 
 <h2>About</h2>
 
