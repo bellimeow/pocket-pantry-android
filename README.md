@@ -1,5 +1,6 @@
 <h1> TDP028 Pocket Pantry</h1>
 
+![alt text](https://github.com/bellimeow/pocket-pantry-android/blob/main/app-pic-home1.png?raw=true)
 
 <h2>About</h2>
 
