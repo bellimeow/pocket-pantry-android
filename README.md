@@ -8,7 +8,7 @@
 
 <h2>About</h2>
 
-Pocket Pantry is made for you who wants to be able to easily get a shopping list for your groceries from your favorite recipes. 
+Pocket Pantry is made for you who want to be able to easily get a shopping list for your groceries from your favorite recipes. 
 
 This application is created by Isabella Olivos for a school project for the course Entrepreneurial programming (TDP028).
 
