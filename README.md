@@ -15,7 +15,7 @@ This application was created as a school project for the course Entrepreneurial 
 <h2>Features</h2>
 <p>- Save recipes</p>
 <p>- Automatically generated shopping lists</p>
-<p>- User account</p>
+<p>- User account through Google and e-mail</p>
 <p>- Firestore database integrated</p>
 
 <h2> Upcoming Features</h2>
