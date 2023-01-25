@@ -23,11 +23,6 @@ import se.liu.tdp028_pocketpantry.Models.RecipeItem;
 import se.liu.tdp028_pocketpantry.R;
 import se.liu.tdp028_pocketpantry.ViewModels.RecipesListAdapter;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link HomeFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class HomeFragment extends Fragment implements RecipesListAdapter.OnClickListener {
 
     public interface OnClickListener {
