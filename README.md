@@ -10,7 +10,7 @@
 
 Pocket Pantry is made for you who want to be able to easily get a shopping list for your groceries from your favorite recipes. 
 
-This application is created by Isabella Olivos for a school project for the course Entrepreneurial programming (TDP028).
+This application was created as a school project for the course Entrepreneurial programming (TDP028).
 
 <h2>Features</h2>
 <p>- Save recipes</p>
